@@ -1,0 +1,139 @@
+/*Header alanına metin biçimlendirme yapalım*/
+header {
+    background-color: rgb(44,62,80);
+    width: 100%;
+    height: 100px;
+    color: rgb(255,255,255);
+    
+}
+.link-gizle {
+    cursor: pointer;
+    text-decoration: none; /* Opsiyonel: Bağlantı çizgisini kaldırır */
+    color: inherit; /* Opsiyonel: Bağlantı rengini miras alır */
+}
+/*Article alanını biçimlendirelim
+Resmi ortalar class="rounded"*/
+nav { text-align: center;
+    background-color: rgb(26,188,156);
+    height:700px;
+    color: white;
+}
+nav h1 { font-size: 70px; 
+
+}
+.po {
+    height: 750px;
+}
+article h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.ab {
+    background-color: rgb(26,188,156);
+    height: 400px;
+}
+/* X de merkezle; class="text-center"
+   Y de merkezle; style="margin-top: 70px" */
+   #bir {
+    border-style: none;
+    width: 350px;
+    height: 275px;
+    background-color: rgb(186,76,99);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#iki {
+    border-style: none;
+    width: 350px;
+    height: 275px;
+    background-color:rgb(31,164,182);
+    border-radius: 10px;
+}
+#uc {
+    border-style: none;
+    width: 350px;
+    height: 275px;
+    background-color: rgb(19,15,15);
+    border-radius: 10px;
+}
+#dort {
+    border-style: none;
+    width: 350px;
+    height: 275px;
+    background-color: rgb(29,131,193);
+    border-radius: 10px;
+}
+#bes {
+    border-style: none;
+    width: 350px;
+    height: 275px;
+    background-color: rgb(16,55,181);
+    border-radius: 10px;
+}
+#altı {
+    border-style: none;
+    width: 350px;
+    height: 275px;
+    background-color: rgb(204,178,163);
+    border-radius: 10px;
+}
+#fr {
+    position: relative;
+    left: 320px;
+}
+#yo {
+    position: relative;
+    right: -20px;
+}
+#ya {
+    font-size: 20px;
+    color: white;
+}
+.download { 
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    font-size: 20px;
+    border-color: white;
+    width: 200px;
+    height: 70px;
+    /*İÇERİĞİ HİZALAMAK İÇİN*/
+    display: flex; /* Kutu içindeki öğeleri düzenlemek için flex kullan */
+    flex-direction: column; /* Dikey düzende öğeleri sırala */
+    justify-content: center; /* Dikeyde içeriği ortala */
+    align-items: center; /* Yatayda içeriği ortala */
+    text-align: center;
+    margin: auto;
+}
+footer .row {
+    background-color: rgb(44,62,80);
+    color: white;
+    height: 100px;
+}
+h4 {
+    font-size: 27px;
+}
+footer p {
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.Uğur {
+    background-color: rgb(26,37,47);
+    color: white;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+.Uğur p { 
+    display: flex; /* Kutu içindeki öğeleri düzenlemek için flex kullan */
+    text-align: center;
+    margin: auto;
+    font-family: Lato, -apple-system, B;
+
+}
